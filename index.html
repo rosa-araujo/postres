@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pastelería Rose">
+    <meta name="keywords" content="Cake, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pastelería Rose</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+
+     <!-- CATALOG Styles -->
+     <link rel="stylesheet" media="screen" href="css/catalog/theme.min.css">
+     <!-- CATALOG Styles -->
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+   
+
+    <style>
+        .modal-dialog {
+            max-width: 1100px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__logo">
+            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header__top__inner">
+                            <div class="header__logo">
+                                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas__open"><i class="fa fa-bars"></i></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Home</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- About Section Begin -->
+    <section class="about spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="about__text">
+                        <div class="section-title">
+                            <span>Acerca de Nostros</span>
+                            <h2>Postres caseros para los mejores momentos</h2>
+                        </div>
+                        <p>
+                            Somos un negocio familar que se dedica a preparar postres con los mejores ingredientes
+                            pensados para toda ocasión. Ofrecemos desde alfajores y galletas hasta tortas y pies. 
+                            Tenemos variedad de productos y con el tiempo esperamos ofrecer más. Cualquier consulta, 
+                            pedido o sugerencia podrás hacerla en nuestra sección de Contacto. Esperamos les guste nuestro
+                            trabajo y vuelvan pronto!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img src="img/wallpaper/chocolate-cupcakes-wallpaper.jpg" alt="">
+                    
+                    <!--<div class="product__item__pic set-bg" data-setbg="img/wallpaper/chocolate-cupcakes-wallpaper.jpg">-->
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    
+    <!-- Product Section Begin -->
+    <section class="product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-6">
+                    <div class="about__text">
+                        <div class="section-title">
+                            <span>Nuestros Productos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/postres/pie_limon.jpeg">
+                            <div class="product__label btn" data-toggle="modal" data-target="#modalPieLimon">
+                                <span>Ver detalle</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Pie de Limón</a></h6>
+                            <div class="product__item__price">s./ 35.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/postres/pie_manzana.jpeg">
+                            <div class="product__label btn" data-toggle="modal" data-target="#modalPieManzana">
+                                <span>Ver detalle</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Pie de Manzana</a></h6>
+                            <div class="product__item__price">s./ 36.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/postres/alfajores.jpeg">
+                            <div class="product__label btn" data-toggle="modal" data-target="#modalAlfajores">
+                                <span>Ver Detalle</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Alfajores</a></h6>
+                            <div class="product__item__price">s./ 25.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/postres/crema_volteada.jpeg">
+                            <div class="product__label btn" data-toggle="modal" data-target="#modalCremaVolteada">
+                                <span>Ver Detalle</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Crema Volteada</a></h6>
+                            <div class="product__item__price">s./ 47.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/postres/galletas.jpeg">
+                            <div class="product__label">
+                                <span>Ver detalle</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Galletas de Avena</a></h6>
+                            <div class="product__item__price">Pronto</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/postres/babka_canela.jpeg">
+                            <div class="product__label">
+                                <span>Ver Detalle</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Babka de Canela</a></h6>
+                            <div class="product__item__price">Pronto</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/postres/keke_ingles.jpeg">
+                            <div class="product__label">
+                                <span>Ver Detalle</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Keke Inglés</a></h6>
+                            <div class="product__item__price">Pronto</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/postres/muffins_chocolate.jpeg">
+                            <div class="product__label">
+                                <span>Ver Detalle</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Muffins de Chocolate</a></h6>
+                            <div class="product__item__price">Pronto</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Section End -->
+
+    
+    <!-- Footer Section Begin -->
+    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Horario Laboral</h6>
+                        <ul>
+                            <li>Lunes - Viernes: 09:00 am – 06:00 pm</li>
+                            <li>Sábado: 10:00 am – 16:30 pm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
+                        <p>Postres caseros para los mejores momentos</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <p>Visita nuestras redes sociales:</p>
+                        <div class="footer__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p class="copyright__text text-white">
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados 
+                      </p>
+                  </div>
+                  <div class="col-lg-5">
+                    <div class="copyright__widget" style="display: none;">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!-- Footer Section End -->
+
+<!-- Search Begin -->
+<div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>
+<!-- Search End -->
+
+
+
+<!--INICIO: Modal Pie de Limón -->
+<div class="modal fade" id="modalPieLimon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <span class="h3 fw-normal text-accent me-1">Pie de Limón</span>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+        <!--::::::::::::::::::::::::::::::::::-->
+            <div class="container">
+                <!-- Gallery + details-->
+                <div class="bg-light shadow-lg rounded-3 px-4 py-3 mb-5">
+                  <div class="px-lg-3">
+                    <div class="row">
+                      <!-- Product gallery-->
+                      <div class="col-lg-7 pe-lg-0 pt-lg-4">
+                        <div class="product-gallery">
+                          <div class="product-gallery-preview order-sm-2">
+                            <div class="product-gallery-preview-item active" id="limon1">
+                                <img class="image-zoom" src="img/postres/pie_limon.jpeg" data-zoom="img/postres/pie_limon.jpeg" alt="Pie de Limón">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                            <div class="product-gallery-preview-item" id="limon2">
+                                <img class="image-zoom" src="img/postres/pie_limon2.jpeg" data-zoom="img/postres/pie_limon2.jpeg" alt="Pie de Limón">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                            <div class="product-gallery-preview-item" id="limon3">
+                                <img class="image-zoom" src="img/postres/pie_limon3.jpeg" data-zoom="img/postres/pie_limon3.jpeg" alt="Pie de Limón">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                          </div>
+                          <div class="product-gallery-thumblist order-sm-1">
+                              <a class="product-gallery-thumblist-item active" href="#limon1">
+                                  <img src="img/postres/pie_limon.jpeg" alt="Product thumb">
+                                </a>
+                              <a class="product-gallery-thumblist-item" href="#limon2">
+                                  <img src="img/postres/pie_limon2.jpeg" alt="Product thumb">
+                                </a>
+                                <a class="product-gallery-thumblist-item" href="#limon3">
+                                    <img src="img/postres/pie_limon3.jpeg" alt="Product thumb">
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- Product details-->
+                      <div class="col-lg-5 pt-4 pt-lg-0">
+                        <div class="product-details ms-auto pb-3" style="padding-top: 2rem !important;">
+                          <!-- Product panels-->
+                          <div class="accordion mb-4" id="productPanels">
+                            <div class="accordion-item">
+                              <h3 class="accordion-header">
+                                  <a style="color: #f08632 !important;" class="accordion-button" href="#acordion_pielimon1" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="acordion_pielimon1">
+                                      <i class="ci-announcement text-muted fs-lg align-middle mt-n1 me-2">
+                                      </i>
+                                      Descripción
+                                    </a>
+                                </h3>
+                              <div class="accordion-collapse collapse show" id="acordion_pielimon1" data-bs-parent="#productPanels">
+                                <div class="accordion-body">
+                                  <ul class="fs-sm ps-4">
+                                    <li>Base hecha de galletas, relleno cremoso entre dulce y ácido, merengue suave y dulce</li>
+                                  </ul>
+                                  <br />
+                                  <h6 class="fs-sm mb-2">Categoría</h6>
+                                  <ul class="fs-sm ps-4 mb-0">
+                                    <li>Tortas</li>
+                                    <li>Pies</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <a style="color: #f08632 !important;" class="accordion-button" href="#acordion_pielimon2" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="acordion_pielimon2">
+                                        <i class="ci-announcement text-muted fs-lg align-middle mt-n1 me-2">
+                                        </i>Precios</a>
+                              </h3>
+                                <div class="accordion-collapse collapse" id="acordion_pielimon2" data-bs-parent="#productPanels">
+                                  <div class="accordion-body">
+                                    <h6 class="fs-sm mb-2">Tamaño 1</h6>
+                                    <ul class="fs-sm ps-4">
+                                      <li>Diámetro: 12.5 cm</li>
+                                      <li>Cant. Porciones: 10</li>
+                                      <li>Decoración: Caja, base y listón</li>
+                                      <li>Precio: s./ 35.00</li>
+                                    </ul>
+                                    <br />
+                                    <h6 class="fs-sm mb-2">Tamaño 2</h6>
+                                    <ul class="fs-sm ps-4 mb-0">
+                                        <li>Diámetro: 28 cm</li>
+                                        <li>Cant. Porciones: 18</li>
+                                        <li>Decoración: Caja, base y listón</li>
+                                        <li>Precio: s./ 56.00</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!--::::::::::::::::::::::::::::::::::-->
+        </div>
+       
+      </div>
+    </div>
+</div>
+<!--FIN: Modal Pie de Limón -->
+
+<!--INICIO: Modal Pie de Manzana -->
+<div class="modal fade" id="modalPieManzana" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <span class="h3 fw-normal text-accent me-1">Pie de Manzana</span>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+        <!--::::::::::::::::::::::::::::::::::-->
+            <div class="container">
+                <!-- Gallery + details-->
+                <div class="bg-light shadow-lg rounded-3 px-4 py-3 mb-5">
+                  <div class="px-lg-3">
+                    <div class="row">
+                      <!-- Product gallery-->
+                      <div class="col-lg-7 pe-lg-0 pt-lg-4">
+                        <div class="product-gallery">
+                          <div class="product-gallery-preview order-sm-2">
+                            <div class="product-gallery-preview-item active" id="manzana1">
+                                <img class="image-zoom" src="img/postres/pie_manzana.jpeg" data-zoom="img/postres/pie_manzana.jpeg" alt="Pie de Manzana">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                            <div class="product-gallery-preview-item" id="manzana2">
+                                <img class="image-zoom" src="img/postres/pie_manzana2.jpeg" data-zoom="img/postres/pie_manzana2.jpeg" alt="Pie de Manzana">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                            <div class="product-gallery-preview-item" id="manzana3">
+                                <img class="image-zoom" src="img/postres/pie_manzana3.jpeg" data-zoom="img/postres/pie_manzana3.jpeg" alt="Pie de Manzana">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                          </div>
+                          <div class="product-gallery-thumblist order-sm-1">
+                              <a class="product-gallery-thumblist-item active" href="#manzana1">
+                                  <img src="img/postres/pie_manzana.jpeg" alt="Pie de Manzana">
+                                </a>
+                              <a class="product-gallery-thumblist-item" href="#manzana2">
+                                  <img src="img/postres/pie_manzana2.jpeg" alt="Pie de Manzana">
+                                </a>
+                                <a class="product-gallery-thumblist-item" href="#manzana3">
+                                    <img src="img/postres/pie_manzana3.jpeg" alt="Pie de Manzana">
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- Product details-->
+                      <div class="col-lg-5 pt-4 pt-lg-0">
+                        <div class="product-details ms-auto pb-3" style="padding-top: 2rem !important;">
+                          <!-- Product panels-->
+                          <div class="accordion mb-4" id="productPanels2">
+                            <div class="accordion-item">
+                              <h3 class="accordion-header">
+                                  <a style="color: #f08632 !important;" class="accordion-button" href="#acordion_piemanzana1" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="acordion_piemanzana1">
+                                      <i class="ci-announcement text-muted fs-lg align-middle mt-n1 me-2">
+                                      </i>
+                                      Descripción
+                                    </a>
+                                </h3>
+                              <div class="accordion-collapse collapse show" id="acordion_piemanzana1" data-bs-parent="#productPanels2">
+                                <div class="accordion-body">
+                                  <ul class="fs-sm ps-4">
+                                    <li>Base y masa crocante, rellena de crema y trozos de manzana. </li>
+                                  </ul>
+                                  <br />
+                                  <h6 class="fs-sm mb-2">Categoría</h6>
+                                  <ul class="fs-sm ps-4 mb-0">
+                                    <li>Tortas</li>
+                                    <li>Pies</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <a style="color: #f08632 !important;" class="accordion-button" href="#acordion_piemanzana2" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="acordion_piemanzana2">
+                                        <i class="ci-announcement text-muted fs-lg align-middle mt-n1 me-2">
+                                        </i>Precios</a>
+                              </h3>
+                                <div class="accordion-collapse collapse" id="acordion_piemanzana2" data-bs-parent="#productPanels2">
+                                  <div class="accordion-body">
+                                    <h6 class="fs-sm mb-2">Tamaño 1</h6>
+                                    <ul class="fs-sm ps-4">
+                                      <li>Diámetro: 12.5 cm</li>
+                                      <li>Cant. Porciones: 10</li>
+                                      <li>Decoración: Caja, base y listón</li>
+                                      <li>Precio: s./ 36.00</li>
+                                    </ul>
+                                    <br />
+                                    <h6 class="fs-sm mb-2">Tamaño 2</h6>
+                                    <ul class="fs-sm ps-4 mb-0">
+                                        <li>Diámetro: 28 cm</li>
+                                        <li>Cant. Porciones: 18</li>
+                                        <li>Decoración: Caja, base y listón</li>
+                                        <li>Precio: s./ 65.00</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!--::::::::::::::::::::::::::::::::::-->
+        </div>
+       
+      </div>
+    </div>
+</div>
+<!--FIN: Modal Pie de Manzana -->
+
+<!--INICIO: Modal Alfajores -->
+<div class="modal fade" id="modalAlfajores" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <span class="h3 fw-normal text-accent me-1">Alfajores</span>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+        <!--::::::::::::::::::::::::::::::::::-->
+            <div class="container">
+                <!-- Gallery + details-->
+                <div class="bg-light shadow-lg rounded-3 px-4 py-3 mb-5">
+                  <div class="px-lg-3">
+                    <div class="row">
+                      <!-- Product gallery-->
+                      <div class="col-lg-7 pe-lg-0 pt-lg-4">
+                        <div class="product-gallery">
+                          <div class="product-gallery-preview order-sm-2">
+                            <div class="product-gallery-preview-item active" id="alfajores1">
+                                <img class="image-zoom" src="img/postres/alfajores.jpeg" data-zoom="img/postres/alfajores.jpeg" alt="Alfajores">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                            <div class="product-gallery-preview-item" id="alfajores2">
+                                <img class="image-zoom" src="img/postres/alfajores2.jpeg" data-zoom="img/postres/alfajores2.jpeg" alt="Alfajores">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                            <div class="product-gallery-preview-item" id="alfajores3">
+                                <img class="image-zoom" src="img/postres/alfajores3.jpeg" data-zoom="img/postres/alfajores3.jpeg" alt="Alfajores">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                          </div>
+                          <div class="product-gallery-thumblist order-sm-1">
+                              <a class="product-gallery-thumblist-item active" href="#alfajores1">
+                                  <img src="img/postres/alfajores.jpeg" alt="Alfajores">
+                                </a>
+                              <a class="product-gallery-thumblist-item" href="#alfajores2">
+                                  <img src="img/postres/alfajores2.jpeg" alt="Alfajores">
+                                </a>
+                                <a class="product-gallery-thumblist-item" href="#alfajores3">
+                                    <img src="img/postres/alfajores3.jpeg" alt="Alfajores">
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- Product details-->
+                      <div class="col-lg-5 pt-4 pt-lg-0">
+                        <div class="product-details ms-auto pb-3" style="padding-top: 2rem !important;">
+                          <!-- Product panels-->
+                          <div class="accordion mb-4" id="productPanels3">
+                            <div class="accordion-item">
+                              <h3 class="accordion-header">
+                                  <a style="color: #f08632 !important;" class="accordion-button" href="#acordion_alfajores1" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="acordion_alfajores1">
+                                      <i class="ci-announcement text-muted fs-lg align-middle mt-n1 me-2">
+                                      </i>
+                                      Descripción
+                                    </a>
+                                </h3>
+                              <div class="accordion-collapse collapse show" id="acordion_alfajores1" data-bs-parent="#productPanels3">
+                                <div class="accordion-body">
+                                  <ul class="fs-sm ps-4">
+                                    <li>Galletas de harina unidas por manjar blanco casero, espolvoreadas con azucar impalpable o chispas de coco.</li>
+                                  </ul>
+                                  <br />
+                                  <h6 class="fs-sm mb-2">Categoría</h6>
+                                  <ul class="fs-sm ps-4 mb-0">
+                                    <li>Bocaditos</li>                                    
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <a style="color: #f08632 !important;" class="accordion-button" href="#acordion_alfajores2" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="acordion_alfajores2">
+                                        <i class="ci-announcement text-muted fs-lg align-middle mt-n1 me-2">
+                                        </i>Precios</a>
+                              </h3>
+                                <div class="accordion-collapse collapse" id="acordion_alfajores2" data-bs-parent="#productPanels3">
+                                  <div class="accordion-body">
+                                    <h6 class="fs-sm mb-2">Tamaño 1</h6>
+                                    <ul class="fs-sm ps-4">
+                                      <li>1 docena</li>
+                                      <li>Decoración: Caja transparente</li>
+                                      <li>Precio: s./ 25.00</li>
+                                    </ul>
+                                    <br />
+                                    <h6 class="fs-sm mb-2">Tamaño 2</h6>
+                                    <ul class="fs-sm ps-4 mb-0">
+                                        <li>2 docenas</li>
+                                        <li>Decoración: Caja transparente</li>
+                                        <li>Precio: s./ 49.00</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!--::::::::::::::::::::::::::::::::::-->
+        </div>
+       
+      </div>
+    </div>
+</div>
+<!--FIN: Modal Alfajores -->
+
+<!--INICIO: Modal Alfajores -->
+<div class="modal fade" id="modalCremaVolteada" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <span class="h3 fw-normal text-accent me-1">Crema Volteada</span>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+        <!--::::::::::::::::::::::::::::::::::-->
+            <div class="container">
+                <!-- Gallery + details-->
+                <div class="bg-light shadow-lg rounded-3 px-4 py-3 mb-5">
+                  <div class="px-lg-3">
+                    <div class="row">
+                      <!-- Product gallery-->
+                      <div class="col-lg-7 pe-lg-0 pt-lg-4">
+                        <div class="product-gallery">
+                          <div class="product-gallery-preview order-sm-2">
+                            <div class="product-gallery-preview-item active" id="crema_volteada1">
+                                <img class="image-zoom" src="img/postres/crema_volteada.jpeg" data-zoom="img/postres/crema_volteada.jpeg" alt="Crema Volteada">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                            <div class="product-gallery-preview-item" id="crema_volteada2">
+                                <img class="image-zoom" src="img/postres/crema_volteada2.jpeg" data-zoom="img/postres/crema_volteada2.jpeg" alt="Crema Volteada">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                            <div class="product-gallery-preview-item" id="crema_volteada3">
+                                <img class="image-zoom" src="img/postres/crema_volteada3.jpeg" data-zoom="img/postres/crema_volteada3.jpeg" alt="Crema Volteada">
+                              <div class="image-zoom-pane"></div>
+                            </div>
+                          </div>
+                          <div class="product-gallery-thumblist order-sm-1">
+                              <a class="product-gallery-thumblist-item active" href="#crema_volteada1">
+                                  <img src="img/postres/crema_volteada.jpeg" alt="Crema Volteada">
+                                </a>
+                              <a class="product-gallery-thumblist-item" href="#crema_volteada2">
+                                  <img src="img/postres/crema_volteada2.jpeg" alt="Crema Volteada">
+                                </a>
+                                <a class="product-gallery-thumblist-item" href="#crema_volteada3">
+                                    <img src="img/postres/crema_volteada3.jpeg" alt="Crema Volteada">
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- Product details-->
+                      <div class="col-lg-5 pt-4 pt-lg-0">
+                        <div class="product-details ms-auto pb-3" style="padding-top: 2rem !important;">
+                          <!-- Product panels-->
+                          <div class="accordion mb-4" id="productPanels4">
+                            <div class="accordion-item">
+                              <h3 class="accordion-header">
+                                  <a style="color: #f08632 !important;" class="accordion-button" href="#acordion_crema_volteada1" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="acordion_crema_volteada1">
+                                      <i class="ci-announcement text-muted fs-lg align-middle mt-n1 me-2">
+                                      </i>
+                                      Descripción
+                                    </a>
+                                </h3>
+                              <div class="accordion-collapse collapse show" id="acordion_crema_volteada1" data-bs-parent="#productPanels4">
+                                <div class="accordion-body">
+                                  <ul class="fs-sm ps-4">
+                                    <li> Crema a base de huevo, leche condensada / evaporada, escencia de vainilla y bañada en caramelo.</li>
+                                  </ul>
+                                  <br />
+                                  <h6 class="fs-sm mb-2">Categoría</h6>
+                                  <ul class="fs-sm ps-4 mb-0">
+                                    <li>Tortas</li>                                    
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <a style="color: #f08632 !important;" class="accordion-button" href="#acordion_crema_volteada2" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="acordion_crema_volteada2">
+                                        <i class="ci-announcement text-muted fs-lg align-middle mt-n1 me-2">
+                                        </i>Precios</a>
+                              </h3>
+                                <div class="accordion-collapse collapse" id="acordion_crema_volteada2" data-bs-parent="#productPanels4">
+                                  <div class="accordion-body">
+                                    <h6 class="fs-sm mb-2">Tamaño 1</h6>
+                                    <ul class="fs-sm ps-4">
+                                        <li>Diámetro: 26 cm</li>
+                                        <li>Cant. Porciones: 16</li>
+                                        <li>Decoración: Caja y base</li>
+                                        <li>Precio: s./ 47.00</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!--::::::::::::::::::::::::::::::::::-->
+        </div>
+       
+      </div>
+    </div>
+</div>
+<!--FIN: Modal Alfajores -->
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/main.js"></script>
+
+<!-- CATALOG Plugins -->
+<script src="js/catalog/bootstrap.bundle.min.js"></script>
+<script src="js/catalog/Drift.min.js"></script>
+<script src="js/catalog/smooth-scroll.polyfills.min.js"></script>
+<script src="js/catalog/theme.min.js"></script>
+<!-- CATALOG Plugins -->
+
+</body>
+</html>
+
